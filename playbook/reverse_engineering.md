@@ -5,5 +5,5 @@
 
 ## Windows specific
 
- * Check for calls to kernel32.isDebuggerPresent()
+ * Check for calls to `kernel32.isDebuggerPresent()`
  * Check for `int 3` calls. They trap the debugger to a stop.
