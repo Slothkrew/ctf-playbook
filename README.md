@@ -1,3 +1,5 @@
+This readme was automatically generated from the individual sections in `playbook/`.
+
 # Introduction
 
 This set of documents is primarily intended as a set of personal notes, tips, tricks and scripts related to performing well in capture the flag competitions. With any luck, it can also be of use to others, particularly my friends and team mates from https://slothkrew.com / #slothkrew.

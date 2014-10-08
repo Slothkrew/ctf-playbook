@@ -2,6 +2,9 @@
 
 outfile = File.open("README.md", "w")
 
+outfile.write(File.open("readme-note.md").read)
+outfile.write("\n")
+
 [
   "introduction",
   "miscellaneous",
