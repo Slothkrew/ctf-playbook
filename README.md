@@ -47,6 +47,8 @@ A few ciphers I've encountered so far:
 
  * Caesar (`scripts/examples/crypto/caesar.rb`)
  * Vigenère
+ * Scytale transposition cipher
+ * Substitution cipher
 
 # Steganography
 
