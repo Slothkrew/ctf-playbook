@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+require_relative "../../lib/crypto/caesar.rb"
+
 # Example
 ciphertext = "MABL BL TG XQTFIEX HY MAX LEHMADKXP VTXLTK VBIAXK UKXTDXK'L KTP IHPXK!"
 
