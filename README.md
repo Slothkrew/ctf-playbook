@@ -1,4 +1,4 @@
-This readme was automatically generated from the individual sections in `playbook/`. If you're editing these documents yourself, I recommend adding a git hook to automatically run `./makebook.rb` every time you commit.
+This readme was automatically generated from the individual sections in `playbook/`.
 
 # Introduction
 
