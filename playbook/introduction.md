@@ -6,8 +6,8 @@ Little effort will be made to explain techniques, as there are many better resou
 
 ## Contents
 
- 1. Miscellaneous
- 1. Reverse engineering
- 1. Web security
- 1. Cryptography
- 1. Steganography
+ 1. [Miscellaneous](#miscellaneous)
+ 1. [Reverse engineering](#reverse-engineering)
+ 1. [Web security](#web-security)
+ 1. [Cryptography](#cryptography)
+ 1. [Steganography](#steganography)
