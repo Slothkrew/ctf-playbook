@@ -1,6 +1,8 @@
 # Cryptography
 
-Here are some of the ciphers I've encountered being used in CTF challenges:
+You will encounter a wide variety of cryptographic techniques in CTFs, but some fruit hangs lower than others, and I am trying to build some reusable modules to aid us.
 
- * Caesar
+A few ciphers I've encountered so far:
+
+ * Caesar (`scripts/crypto/caesar.rb`)
  * Vigenère
