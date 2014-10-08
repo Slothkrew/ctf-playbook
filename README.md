@@ -45,7 +45,7 @@ You will encounter a wide variety of cryptographic techniques in CTFs, but some 
 
 A few ciphers I've encountered so far:
 
- * Caesar (`scripts/crypto/caesar.rb`)
+ * Caesar
  * Vigenère
 
 # Steganography
