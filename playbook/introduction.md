@@ -11,3 +11,4 @@ Little effort will be made to explain techniques, as there are many better resou
  1. [Web security](#web-security)
  1. [Cryptography](#cryptography)
  1. [Steganography](#steganography)
+ 1. [Exploitation](#exploitation)

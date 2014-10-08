@@ -13,6 +13,7 @@ Little effort will be made to explain techniques, as there are many better resou
  1. [Web security](#web-security)
  1. [Cryptography](#cryptography)
  1. [Steganography](#steganography)
+ 1. [Exploitation](#exploitation)
 
 # Miscellaneous
 
@@ -62,4 +63,8 @@ A few ciphers I've encountered so far:
 ## Text
 
  1. Are there seemingly superfluous tabs/spaces at the end of lines? It could be a [whitespace](http://en.wikipedia.org/wiki/Whitespace_%28programming_language%29) program.
+
+# Exploitation
+
+ 1. Any buffers you can overflow? In simple challenges, you may be able to overwrite values on the stack to your advantage.
 

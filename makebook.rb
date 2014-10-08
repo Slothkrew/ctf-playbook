@@ -11,7 +11,8 @@ outfile.write("\n")
   "reverse_engineering",
   "web_security",
   "cryptography",
-  "steganography"
+  "steganography",
+  "exploitation"
 ].each do |section|
   outfile.write(File.open("playbook/#{section}.md").read)
   outfile.write("\n")
