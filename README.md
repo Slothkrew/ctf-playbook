@@ -66,5 +66,13 @@ A few ciphers I've encountered so far:
 
 # Exploitation
 
- 1. Any buffers you can overflow? In simple challenges, you may be able to overwrite values on the stack to your advantage.
+ * Any buffers you can overflow? In simple challenges, you may be able to overwrite values on the stack to your advantage.
+
+## Sandbox Escapes
+
+ * If functions are blacklisted by name, look for other ways to invoke them.
+
+## Reading
+
+ * https://isisblogs.poly.edu/2012/10/26/escaping-python-sandboxes/
 
