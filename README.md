@@ -6,7 +6,7 @@ This set of documents is primarily intended as a set of personal notes, tips, tr
 
 Little effort will be made to explain techniques, as there are many better resources to learn from if you want to understand the topic. Also, I don't know what I'm doing. Rather, this is more of a checklist of approaches to take when presented with a challenge in a CTF, based on my limited previous experience in CTFs.
 
-## Contents
+### Contents
 
  1. [Miscellaneous](#miscellaneous)
  1. [Reverse engineering](#reverse-engineering)
@@ -29,7 +29,7 @@ Some things to note:
  * Is the flag in `$ strings crackme`?
  * Search for all referenced text strings in your debugger. Look for things like "access denied", "access granted", etc. and work backwards from there.
 
-## Windows specific
+### Windows specific
 
  * Check for calls to `kernel32.isDebuggerPresent()`
  * Check for `int 3` calls. They trap the debugger to a stop.
@@ -53,14 +53,16 @@ A few ciphers I've encountered so far:
 
 # Steganography
 
-## Images
+ * Look for extra data hidden in the "unused" areas of the file.
+
+### Images
 
  1. Anything in the exif metadata?
  1. What file format is it? Different image formats provide different avenues for hiding data.
  1. Does playing about with levels/curves reveal the flag?
  1. Is the flag hidden in only one of the colour channels?
 
-## Text
+### Text
 
  1. Are there seemingly superfluous tabs/spaces at the end of lines? It could be a [whitespace](http://en.wikipedia.org/wiki/Whitespace_%28programming_language%29) program.
 
@@ -68,11 +70,11 @@ A few ciphers I've encountered so far:
 
  * Any buffers you can overflow? In simple challenges, you may be able to overwrite values on the stack to your advantage.
 
-## Sandbox Escapes
+### Sandbox Escapes
 
  * If functions are blacklisted by name, look for other ways to invoke them.
 
-## Reading
+### Reading
 
  * https://isisblogs.poly.edu/2012/10/26/escaping-python-sandboxes/
 

@@ -4,7 +4,7 @@ This set of documents is primarily intended as a set of personal notes, tips, tr
 
 Little effort will be made to explain techniques, as there are many better resources to learn from if you want to understand the topic. Also, I don't know what I'm doing. Rather, this is more of a checklist of approaches to take when presented with a challenge in a CTF, based on my limited previous experience in CTFs.
 
-## Contents
+### Contents
 
  1. [Miscellaneous](#miscellaneous)
  1. [Reverse engineering](#reverse-engineering)
