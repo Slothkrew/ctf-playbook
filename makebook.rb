@@ -13,6 +13,7 @@ outfile.write("\n")
   "cryptography",
   "steganography",
   "exploitation"
+  "brainstorming"
 ].each do |section|
   outfile.write(File.open("playbook/#{section}.md").read)
   outfile.write("\n")
