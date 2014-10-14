@@ -22,6 +22,7 @@ Some things to note:
  * It's extremely common for the title to be a clue. Even if it's not an obvious one, keep it in mind as it may become useful part way through the challenge.
  * Google everything.
  * Look for non obvious avenues of attack. If a challenge gives away any side channel information, you may be expected to use it.
+ * Don't dismiss the obvious - even though is misleading from time to time, following the most obvious hints can easily lead to success, especially for the lower-score challenges.
 
 # Reverse Engineering
 
@@ -77,4 +78,12 @@ A few ciphers I've encountered so far:
 ### Reading
 
  * https://isisblogs.poly.edu/2012/10/26/escaping-python-sandboxes/
+
+# Brainstorming
+
+This section is intended as brainstorming playground to note down ideas that might be worthy of implementing
+
+ * We're currently registering for CTFs with a player's mailaddress - maybe something like sloths@slothkrew.com where everybody has access to would be useful.
+ * Every CTF it's the same problem: You need this tool or that tool or you would need yet another copy of Kali, but the download is costing you tons of time because the mirrors are slow - maybe we could set up a tools-repository or virtualbox-image on a private box to make sure we can access it fast?
+ * Even though we are registered on CTFTime as a team, taking a more planned approach could be nice - some sort of calendar-app?
 

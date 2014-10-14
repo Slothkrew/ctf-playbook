@@ -12,7 +12,7 @@ outfile.write("\n")
   "web_security",
   "cryptography",
   "steganography",
-  "exploitation"
+  "exploitation",
   "brainstorming"
 ].each do |section|
   outfile.write(File.open("playbook/#{section}.md").read)
