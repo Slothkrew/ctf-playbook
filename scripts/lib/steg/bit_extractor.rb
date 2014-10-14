@@ -7,7 +7,7 @@
 
 class BitExtractor
   def initialize(file)
-    @file = File.open(file, "rb")
+    @file = File.open(file, "r")
   end
 
   def extract(offset, chunk_interval, chunk_size)
@@ -21,6 +21,6 @@ class BitExtractor
       out << block.chars.first(chunk_size).join
     end
 
-    puts out
+    return out
   end
 end
