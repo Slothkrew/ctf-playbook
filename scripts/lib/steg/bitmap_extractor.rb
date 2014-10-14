@@ -7,18 +7,42 @@
 
 class BitmapExtractor
   def initialize(file)
-    @file = File.open(file, "r")
+    @filename = file
+    @file     = File.open(file, "r")
   end
 
   def extract(colour)
     puts "[+] Extracting values from #{colour} pixels"
 
-    puts "    TYPE:   #{image_type(@file.read(2))}"
-    puts "    LENGTH: #{@file.read(4).unpack('s*')[0]}"
-
+    type   = image_type(@file.read(2))
+    length = @file.read(4).unpack('s*')[0]
     @file.read(4) # Don't currently care about this stuff
+    start  = @file.read(4).unpack('s*')[0]
+    @file.read(4) # number of bytes in DIB header
+    width  = @file.read(4).unpack('s*')[0]
+    height = @file.read(4).unpack('s*')[0]
 
-    puts "    START:  #{@file.read(4).unpack('s*')[0]}"   
+    puts "[-] main header"
+    puts "    TYPE:    #{type}"
+    puts "    LENGTH:  #{length}"
+    puts "    START:   #{start}"  
+    puts "[-] DIB header"
+    puts "    WIDTH:   #{width}"
+    puts "    HEIGHT:  #{height}"
+
+    @file.close
+
+
+    @file = File.open(@filename, "r")
+    @file.read(start)
+
+    height.times do
+      width.times do
+        puts @file.read(3).unpack('s*')[0]
+      end
+      @file.read(2)
+    end
+    
   end
 
   def image_type(header)
