@@ -3,6 +3,7 @@
  * What type of file is it? Run `$ file crackme` to find out.
  * Is the flag in `$ strings crackme`?
  * Search for all referenced text strings in your debugger. Look for things like "access denied", "access granted", etc. and work backwards from there.
+ * Has the executable been stripped of debugging information?
 
 ### Windows specific
 
